@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+.subsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.uvod {
+  background-color: #14213d;
+  height: 100vh;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+ul.menu li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+footer {
+  height: 300px;
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: "League Spartan", sans-serif;
+  color: #fca311;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: "League Spartan", sans-serif;
+  color: #000000;
+}
+.uvod-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uvod-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.socials {
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  padding-bottom: 2rem;
+}
+
+.button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  letter-spacing: 2px;
+  min-width: 160px;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #000000;
+  background-color: #ffffff;
+  height: 48px;
+  width: 5%;
+  margin-top: 2rem;
+}
+.button:hover {
+  background-color: #fca311;
+}
+
+.button:active {
+  background-color: #fca311;
+}
+
+svg:hover path {
+  fill: #fca311;
+}
+
+svg:active path {
+  fill: #fca311;
+}
+
+.headshot {
+  width: 350px;
+  border-radius: 500px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
